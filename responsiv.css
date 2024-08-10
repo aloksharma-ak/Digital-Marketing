@@ -4002,3 +4002,681 @@
 
 }
 
+@media (min-width: 1025px) and (max-width: 1400px) {
+
+    /* NAVIGATION */
+
+    .nav-list {
+        width: 55%;
+    }
+
+    .padding-lr {
+        padding: 0 3%;
+    }
+
+    
+    /* FOOTER */
+
+    footer {
+        min-height: 20vh;
+    }
+
+    .footer-top {
+        min-height: 28vh;
+        padding: 6vh 4% 3vh;
+        /* flex-direction: column; */
+        gap: 30px;
+    }
+
+    .footer-left {
+        /* width: 100%; */
+        gap: 1.5vh;
+    }
+
+    .footer-left h2 {
+        font-size: 44px;
+        font-weight: 900;
+        letter-spacing: .2px;
+    }
+
+    .footer-left p {
+        font-size: 16px;
+        font-weight: 350;
+    }
+
+    .footer-col {
+        gap: 1vh;
+    }
+
+    .footer-col h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 1.2vh;
+        text-wrap: nowrap;
+    }
+
+    .footer-col a {
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        height: 5vh;
+    }
+
+    .footer-bottom h3 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+
+    /* HOME */
+    .section-hero {
+        min-height: 10vh;
+        padding: 0 1%;
+        margin-top: 6vh;
+    }
+
+    .hero-text {
+        min-height: 60vh;
+        width: 60%;
+        padding: 20px 0;
+    }
+
+    .hero-pic {
+        right: 8%;
+        bottom: -10%;
+    }
+
+    .hero-pic img {
+        width: 340px;
+    }
+
+    .heading-title {
+        font-size: 44px;
+        text-wrap: wrap;
+    }
+
+    .hero-text p {
+        width: 90%;
+    }
+
+
+
+    .section-services {
+        min-height: 20vh;
+    }
+
+    .service-content {
+        padding: 6vh 4%;
+    }
+
+    .service-block {
+        height: 45vh;
+    }
+
+
+    .service-center {
+        width: 92%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -8vh;
+        padding-bottom: 8vh;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .service-card img {
+        width: 100%;
+    }
+
+    .section-trainer {
+        padding: 10vh 8%;
+    }
+
+    .trainer-img {
+        height: 50vh;
+        width: 40%;
+    }
+
+
+
+
+    .company-logo {
+        width: 100%;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        padding: 0vh 4%;
+    }
+
+    .company-logo img {
+        width: 95px;
+    }
+
+
+    .company-trainee .company-tran-content {
+        width: 100%;
+    }
+
+
+
+    .company-session-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 8vh;
+        gap: 25px;
+    }
+
+    .session-card {
+        min-height: 37vh;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+
+
+
+    /* SERVICE PAGE */
+
+
+    .section-about {
+        padding: 8vh 8%;
+    }
+
+
+    .about-right {
+        width: 30%;
+    }
+
+    .about-right img {
+        height: 550px;
+    }
+
+    .about-left {
+        width: 48%;
+    }
+
+    .section-review {
+        min-height: 44vh;
+        padding: 7vh 8%;
+    }
+
+    .review-container {
+        width: 65%;
+    }
+
+    .trainer-img-p {
+        height: 30vh;
+        width: 40%;
+    }
+
+
+
+    .section-query {
+        padding: 0vh 5% 0vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .query-head {
+        padding: 0 3%;
+    }
+
+    .query-head h2 {
+        width: 100%;
+    }
+
+    .query-head p {
+        width: 90%;
+    }
+
+    .query-topics {
+        width: 90%;
+        margin: 12vh 0 0vh;
+        padding: 20px 15px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .query-topics-para i {
+        font-size: 24px;
+        margin-top: 4px;
+    }
+
+    .query-topics-para p {
+        font-size: 22px;
+    }
+
+    .query-detail-item details {
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+    .query-detail {
+        width: 100%;
+        margin: 12vh 0vh 0;
+        padding: 0 4% 4vh;
+        gap: 0px;
+    }
+
+    .query-detail-item summary {
+        font-size: 18px;
+        padding: 25px 22px 20px;
+    }
+
+    .p-gray,
+    .trainer-right p {
+        font-size: 20px;
+    }
+
+    .query-bg,
+    .query-bg-2 {
+        width: 100%;
+        padding: 5vh 0;
+    }
+
+    .query-bg-overlay {
+        background: url(./pic/color-bg.png);
+        opacity: 1;
+    }
+
+    .query-bg .query-detail {
+        gap: 15px;
+    }
+
+    .query-key-point {
+        padding: 10vh 3%;
+    }
+
+    .query-point {
+        gap: 12px;
+        padding: 40px 30px;
+    }
+
+    .query-point i {
+        font-size: 33px;
+    }
+
+    .query-point h3 {
+        font-size: 26px;
+    }
+
+    .query-point p {
+        font-size: 18px;
+    }
+
+    .query-bottom-head {
+        padding: 0 3%;
+    }
+
+    .query-bottom-head p {
+        font-size: 18px;
+    }
+
+
+
+
+    /* CORPORATE TRAINING PAGE */
+
+
+    .heading-title-t {
+        font-size: 40px;
+    }
+
+    .hero-text {
+        min-height: 75vh;
+        width: 55%;
+    }
+
+    .section-trainer-t {
+        align-items: flex-start;
+        padding: 12vh 8%;
+    }
+
+    .trainer-right-t h2 {
+        font-size: 44px;
+    }
+
+    .trainer-img-t {
+        width: 40%;
+        height: 70vh;
+        margin-top: 1vh;
+    }
+
+
+
+    .section-training {
+        min-height: 60vh;
+        padding: 8vh 3%;
+    }
+
+
+
+
+
+
+
+    /* CHAT GPT TRAINING PAGE */
+
+
+    .trainer-img-gpt {
+        height: 45vh;
+        width: 45%;
+    }
+
+    .touch-top {
+        padding: 6vh 4%;
+    }
+
+    .query-head-gpt {
+        margin-top: -4vh;
+    }
+
+    .section-covid {
+        margin-top: 0vh;
+        padding-bottom: 0vh;
+    }
+
+    .covid-overlay {
+        min-height: 100vh;
+        top: 0vh;
+        padding: 0 8%;
+    }
+
+    .covid-center {
+        padding: 0px 15px 6vh 40px;
+    }
+
+    .query-head {
+        padding: 0 1%;
+    }
+
+    .section-review .review-img {
+        min-height: 55vh;
+    }
+
+    .session-card-gpt {
+        min-height: 46vh;
+    }
+
+
+
+
+    /* ABOUT PAGE */
+
+    .goal-container {
+        padding: 8vh 4%;
+    }
+
+    .goal-no {
+        padding: 8vh 4%;
+    }
+
+    .section-institute {
+        padding: 8vh 3%;
+    }
+
+    .institute-logo .img img {
+        width: 125px;
+        height: 80px;
+    }
+
+    .institute-logo .img .img-5 {
+        width: 142px;
+        height: 44px;
+    }
+
+    .institute-logo .img .img-9 {
+        width: 130px;
+        height: 60px;
+    }
+
+    .institute-logo .img .img-8 {
+        width: 107px;
+        height: 64px;
+    }
+
+    .section-get {
+        padding: 15vh 4%;
+    }
+
+
+
+    /* CONTACT PAGE */
+    .hero-bg {
+        min-height: 60vh;
+        padding: 200px 3% 0;
+    }
+
+    .goal-container-1 {
+        padding: 8vh 3% 6vh;
+        margin-top: 20vh;
+    }
+
+    .goal-container-1 form {
+        width: 52%;
+    }
+
+    .goal-container-1 form input[type=text],
+    .goal-container-1 form input[type=email],
+    .goal-container-1 form input[type=number] {
+        width: 48%;
+    }
+
+
+
+    /* DIGITAL MARKETING COURSE */
+
+    .dmc-page1 {
+        min-height: 100vh;
+        place-content: center;
+        margin-top: 8vh;
+    }
+    .dmc-page1-text {
+        width: 75%;
+        gap: 80px;
+    }
+
+    .dmc-page1-text h1 {
+        font-size: 55px;
+    }
+
+
+    .dmc-page1-text p {
+        font-size: 18px;
+    }
+
+
+    .dmc-page2 {
+        padding: 8vh 3%;
+    }
+
+
+    .dmc-page3 {
+        min-height: 55vh;
+    }
+
+    .dmc-page3-container {
+        width: 94%;
+        padding: 8vh;
+        gap: 2.54vh;
+    }
+
+    .dmc-page4 {
+        padding: 0 3% 8vh;
+    }
+
+    .dmc-page5 {
+        padding: 8vh 3%;
+    }
+
+    .dmc-page5-container {
+        width: 90%;
+    }
+
+    .dmc-page6 {
+        padding: 8vh 3%;
+        gap: 2.5vh;
+    }
+
+    .dmc-page6 .video iframe {
+        height: 12vh;
+    }
+
+    .dmc-page7 {
+        padding: 8vh 3%;
+        gap: 3.5vh;
+    }
+
+    .dmc-page7-container .box {
+        height: 36vh;
+    }
+
+    .dmc-page8 {
+        padding: 8vh 3%;
+        gap: 5vh;
+    }
+
+    .dmc-page8-container {
+        width: 94%;
+    }
+
+
+
+    /* SOCIAL MEDIA MARKETING COURSE */
+
+    .smm-page1 {
+        min-height: 180vh;
+        margin-top: 0vh;
+        gap: 8vh;
+        background-position: 56% 0;
+    }
+
+    .smm-page1-top {
+        width: 90%;
+    }
+
+    .smm-page1-top h1 {
+        font-size: 6vw;
+        line-height: 1;
+        margin-bottom: 4vw;
+    }
+
+    .smm-page1 .video {
+        width: 70%;
+        height: 38vw;
+    }
+
+    .smm-page1-bottom {
+        width: 96%;
+    }
+
+    .smm-page1-bottom .smm-button {
+        gap: 5vw;
+        margin-top: 4vw;
+    }
+
+    .smm-page1-bottom .smm-star {
+        font-size: 3vw;
+        margin-top: 4vw;
+    }
+
+    .smm-page1-bottom .smm-button a:not(:first-child) {
+        font-size: 2vw;
+        padding: 1.8vw 3.5vw;
+    }
+
+
+    .smm-page6 {
+        min-height: 15vh;
+    }
+
+    .smm-page7 {
+        min-height: 45vh;
+    }
+
+
+
+
+    /* DIGITAL MARKETING CONSULTANCY & EXPERT */
+
+    .dme-page1 {
+        min-height: 100vh;
+        margin-top: 8vh;
+    }
+
+    .dme-page1 .smm-page1-bottom {
+        width: 96%;
+    }
+
+
+    .dme-page2 {
+        min-height: 75vh;
+        padding: 6vh 3%;
+    }
+
+    .dme-page2-container {
+        width: 96%;
+    }
+
+    .dme-page3 img {
+        height: min-content;
+    }
+
+
+
+    /* PRIVACY */
+
+    .section-pp {
+        padding: 12vh 6.5% 7vh 9%;
+    }
+
+    .h2-gray,
+    .company h2 {
+        font-size: 50px;
+    }
+
+    .section-pp p {
+        font-size: 20px;
+        margin-top: 3vh;
+    }
+
+    .section-pp ul li {
+        font-size: 20px;
+    }
+
+
+
+
+    /* SERVICE DIGITAL MARKETING */
+
+    .section-touch-1 {
+        padding: 0 3%;
+    }
+
+    .section-touch-2 {
+        padding: 0 3%;
+        margin-top: 3vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    textarea.input {
+        min-height: 47px;
+    }
+}
