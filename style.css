@@ -1094,6 +1094,10 @@ footer {
     color: #B640BB;
 }
 
+.footer-col a:nth-child(3) span {
+    text-transform: lowercase;
+}
+
 .footer-bottom {
     height: 8vh;
     width: 100%;
