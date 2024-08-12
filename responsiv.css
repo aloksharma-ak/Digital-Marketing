@@ -4014,7 +4014,7 @@
         padding: 0 3%;
     }
 
-    
+
     /* FOOTER */
 
     footer {
@@ -4479,6 +4479,7 @@
         place-content: center;
         margin-top: 8vh;
     }
+
     .dmc-page1-text {
         width: 75%;
         gap: 80px;
